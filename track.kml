@@ -1,0 +1,14 @@
+<kml xmlns="http://earth.google.com/kml/2.0" >
+  <Document>
+    <NetworkLink>
+      <name>APRS balloon tracker</name>
+      <description>Live tracking of high altitude balloons</description>
+      <Url>
+      <href>http://legacy-snus.habhub.org/tracker/datanew.php?format=kml&amp;mode=2days&amp;vehicles=!RS_*;</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>60</refreshInterval>
+      </Url>
+    </NetworkLink>
+  </Document>
+</kml>
+
